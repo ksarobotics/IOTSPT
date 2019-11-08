@@ -2,10 +2,10 @@
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WiFi.h>
 int httpCode =0; 
-char ssid[]="PTCL-BB";
-char password[]="totalmart1";
-String email="awaiskhawar@yahoo.com";
-String key="9283767126";
+char ssid[]="YOUR-WIFI-SSID";
+char password[]="YOUR-WIFI-PASSWARD";
+String email="IOTSPT-EMAIL";
+String key="IOTSPT-KEY";
 String downloadedData;
 
 void setup() {
